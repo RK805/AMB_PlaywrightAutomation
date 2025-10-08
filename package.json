@@ -1,0 +1,19 @@
+{
+  "name": "automation_playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "debug-testapp-prod": "cross-env test_env=prod app=testapp npx playwright test --workers=1 --project=chrome -g @health_check",
+    "tests": "playwright",
+    "results": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.0",
+    "cross-env": "^7.0.3"
+  }
+}
