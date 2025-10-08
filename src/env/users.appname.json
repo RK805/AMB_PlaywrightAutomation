@@ -1,0 +1,14 @@
+{
+    "environments":{
+        "prod":{
+            "baseUrl":"",
+            "users":{
+                "username":"",
+                "password":""
+            },
+            "tags":[
+                "@health_check"
+            ]
+        }
+    }
+}
