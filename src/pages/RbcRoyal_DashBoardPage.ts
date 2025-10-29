@@ -18,6 +18,8 @@ export  class RbcRoyalDashboardPage {
         this.locators = new RbcRoyal_DashBord(page);
     }
 
+    //If you put those (methods) inside the constructor, they’d run immediately every time you create the object, which you don’t want.
+
     private readonly HOME_PAGE_URL = 'https://www.rbcroyalbank.com/';
 
     async navigateToHomePage() {

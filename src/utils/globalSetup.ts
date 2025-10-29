@@ -1,4 +1,4 @@
-import { type FullConfig } from '@playwright/test'
+﻿import { type FullConfig } from '@playwright/test'
 
 export default async function globalSetup(config: FullConfig): Promise<void> {
     const envPath = '../env/users.${process.env.app}.json';
@@ -16,3 +16,5 @@ export default async function globalSetup(config: FullConfig): Promise<void> {
     console.log('Test Paraments json file: ${testParametersPath}');
 
 }
+
+

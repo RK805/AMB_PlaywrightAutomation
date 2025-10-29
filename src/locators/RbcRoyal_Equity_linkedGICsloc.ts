@@ -15,11 +15,13 @@ export default class RbcRoyal_Equity_linkedGICsloc {
     readonly maximumReturnValue: Locator;
     readonly IBL: Locator;
     readonly currentIndexValue: Locator;
+    readonly Gic_cal: Locator;
 
     constructor(page: Page) {
         //If you don’t write this.page = page, your class won’t know what tab to use — and all your locators will break.
         this.page = page;
         this.log = page.locator("//h2[@class='accordion-title active']");
+        this.Gic_cal = page.locator(" //p[contains(text(), 'Equity- Linked GICs')]/following-sibling::div[@class='callout-link']//a[@class='goto-link']")
         this.initialInvestment = page.locator("//div[@id='principal-container']//input[@id='principalamount']");
         this.GICDate = page.locator("//div[@id='date-container']//input[@id='investmentdate']");
         this.MmarketSmartRedio = page.locator("//label[contains(@data-dig-label,'MarketSmart GIC Guaranteed Minimum Return')]");

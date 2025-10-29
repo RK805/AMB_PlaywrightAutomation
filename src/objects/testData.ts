@@ -4,7 +4,7 @@ export class TestData {
 
 }
 
-class FieldDefination{
+class FieldDefination {
     name: string;
-    file:string;
+    file: string;
 }

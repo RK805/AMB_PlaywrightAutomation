@@ -1,10 +1,10 @@
 import { Page, Locator, expect } from "@playwright/test"
 
-export default class RbcRoyal_RRSF_FutureValueCalculatorloc {
+export default class RbcRoyal_RRSF_FutureValueCalculator {
     private readonly page : Page;
     //locators
 
-
+    readonly RRSFlink: Locator;
     readonly investmentValue: Locator;
     readonly rateOfReturn: Locator;
     readonly numberOfyears: Locator;
@@ -13,6 +13,7 @@ export default class RbcRoyal_RRSF_FutureValueCalculatorloc {
     readonly recalculateButton: Locator
     constructor(page: Page) {
         this.page = page;
+        this.RRSFlink = page.locator("//span[text()='RRSP Future Value Calculator']")
         this.investmentValue = page.locator(" //div[contains(@style,'display')]/following::input[@id='current-value-input'] ");
         this.rateOfReturn = page.locator(" //div[@id='average-tooltip']/following::input[@id='rate-of-return-input'] ");
         this.numberOfyears = page.locator(" //div//input[@id='years-until-retirement'] ");
