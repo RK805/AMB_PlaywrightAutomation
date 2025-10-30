@@ -1,0 +1,49 @@
+{
+
+  "Personalloan": {
+    "BorrowingReason": "Other",
+    "LoanAmount": "5000",
+    "InterestRate": "3",
+    "RepaymentPeriod": "1",
+    "MonthlyPayment": "monthly"
+  },
+
+
+  "RRSFCal": {
+
+    "InvestmentValue": "10000",
+    "RateOfReturn": "5",
+    "NumberOfYears": "10"
+
+  },
+
+  "RBCinvestment": {
+
+    "FundName": "BlueBay $U.S. Global High Yield Bond Fund (Canada) ",
+    "series": "F",
+    "initialInvestment": "10000",
+    "contributionAmount": "500",
+    "withdrawalAmount": "0"
+
+  },
+  "Equity": {
+    "enterInitialInvestment": "$101,500.00",
+    "enterGICDate": "2025-10-22"
+
+  },
+
+  "APIPost": {
+   
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  }
+
+}
+  

@@ -4,7 +4,13 @@ export class TestData {
 
 }
 
+<<<<<<< HEAD
 class FieldDefination{
     name: string;
     file:string;
+=======
+class FieldDefination {
+    name: string;
+    file: string;
+>>>>>>> origin/pageclass
 }
