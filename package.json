@@ -1,34 +1,25 @@
 {
   "name": "automation_playwright",
   "version": "1.0.0",
-<<<<<<< HEAD
+  "description": "",
   "main": "index.js",
   "scripts": {
     "debug-testapp-prod": "cross-env test_env=prod app=testapp npx playwright test --workers=1 --project=chrome -g @health_check",
     "tests": "playwright",
-    "results": "npx playwright show-report"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    
-    "@playwright/test": "^1.53.0",
-    "@types/node": "^24.0.0",
-    "cross-env": "^7.0.3"
-=======
-  "description": "",
-  "main": "index.js",
-  "scripts": {
+    "results": "npx playwright show-report",
     "test": "npx playwright test",
     "typecheck": "tsc --noEmit",
     "results": "npx playwright show-report",
     "debug-testapp-prod": "cross-env test_env=prod app=testapp npx playwright test --workers=1 --project=chrome -g @health_check"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.0",
+    "cross-env": "^7.0.3",
     "@playwright/test": "^1.56.0",
     "@types/node": "^24.7.2",
     "cross-env": "^7.0.3",
@@ -39,6 +30,5 @@
   "dependencies": {
     "winston": "^3.18.3",
     "winston-daily-rotate-file": "^5.0.0"
->>>>>>> origin/pageclass
   }
 }
