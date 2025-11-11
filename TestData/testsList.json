@@ -1,0 +1,6 @@
+{
+  "tests": {
+    "RbcDashboard": "RbcRoyal_DashBord.spec.ts",
+    "Search": "tests/Web_Testing/Surgical_Test/Search.spec.ts"
+  }
+}
