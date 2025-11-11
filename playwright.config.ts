@@ -26,7 +26,9 @@ export default defineConfig({
     reporter: [
         ['./src/reporters/CustomLoggerReporter.ts'], // your custom HTML/logger reporter
         ['html'],// Playwright’s built-in HTML report (playwright-report folder)
-        ['line']// shows console.log + logger output live in terminal
+        ['line'],// shows console.log + logger output live in terminal
+        ['list'],
+        ['junit', { outputFile: 'results/results.xml' }],
 
     ],
 
@@ -47,6 +49,8 @@ export default defineConfig({
         headless: false
 
     },
+   
+    
 
     /* Configure projects for major browsers */
     projects: [
@@ -66,10 +70,10 @@ export default defineConfig({
         },
 
         /* Test against mobile viewports. */
-        // {
-        //   name: 'Mobile Chrome',
-        //   use: { ...devices['Pixel 5'] },
-        // },
+         //{
+         //  name: 'Mobile Chrome',
+         // use: { ...devices['Pixel 5'] },
+         //},
         // {
         //   name: 'Mobile Safari',
         //   use: { ...devices['iPhone 12'] },
