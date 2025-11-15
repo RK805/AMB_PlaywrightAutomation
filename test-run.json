@@ -1,0 +1,5 @@
+{
+  "tests": {
+    "Search": "tests/Web_Testing/Surgical_Test/Search.spec.ts"
+  }
+}
