@@ -49,13 +49,13 @@ export default defineConfig({
             use: {
                 browserName: 'chromium',
                 connectOptions: {
-                    wsEndpoint: "ws://192.168.2.149:8080",
-                    timeout: 60000,
+                    wsEndpoint: process.env.REMOTE_WS ?? "",
+                    //timeout: 60000,
                 }
             }
-        }
+        }  
     ],
-});
+});//"ws://192.168.2.149:8080"
 
 
 
