@@ -1,11 +1,9 @@
-﻿pipeline {
+﻿pipeline{
     agent any
-
     environment {
         // 🔧 Replace with your actual remote WebSocket endpoint
         REMOTE_WS = "ws://192.168.2.149:9000"
     }
-
     stages {
         stage('Checkout') {
             steps {
