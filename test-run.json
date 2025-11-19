@@ -1,0 +1,8 @@
+{
+  "tests": {
+    "PayLoad_Passing": "tests/API_Testing/PayLoad_Passing.spec.ts",
+    "RbcRoyal_RRSF_FutureValueCalculator": "tests/RbcRoyal_RRSF_FutureValueCalculator.spec.ts",
+    "RbcRoyal_personalLoan": "tests/RbcRoyal_personalLoan.spec.ts",
+    "Search": "tests/Web_Testing/Surgical_Test/Search.spec.ts"
+  }
+}
