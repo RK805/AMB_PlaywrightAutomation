@@ -1,0 +1,7 @@
+{
+  "tests": {
+    "RbcRoyal_investment": "tests/RbcRoyal_investment.spec.ts",
+    "RbcRoyal_personalLoan": "tests/RbcRoyal_personalLoan.spec.ts",
+    "Search": "tests/Web_Testing/Surgical_Test/Search.spec.ts"
+  }
+}
